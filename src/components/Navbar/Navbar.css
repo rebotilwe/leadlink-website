@@ -64,16 +64,13 @@
     gap: 1rem;
   }
 
-  .logo {
-    align-self: flex-start; /* Push logo to the left */
-  }
-
-  .logo-img {
-    height: 60px; /* Optional: slightly smaller for mobile */
-  }
-
   .nav-links {
     gap: 1.2rem;
   }
 }
-
+/* Larger screens - make logo bigger */
+@media (min-width: 1200px) {
+  .logo-img {
+    height: 110px; /* increase size on desktops */
+  }
+}
