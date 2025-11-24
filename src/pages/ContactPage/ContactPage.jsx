@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./ContactPage.css";
 // 
 import logo from "../../assets/logo.png";
+import Tiffany from '../../assets/Tiffany.png'
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({

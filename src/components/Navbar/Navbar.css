@@ -64,7 +64,16 @@
     gap: 1rem;
   }
 
+  .logo {
+    align-self: flex-start; /* Push logo to the left */
+  }
+
+  .logo-img {
+    height: 60px; /* Optional: slightly smaller for mobile */
+  }
+
   .nav-links {
     gap: 1.2rem;
   }
 }
+

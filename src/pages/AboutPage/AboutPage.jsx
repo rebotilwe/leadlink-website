@@ -1,13 +1,14 @@
 import React from "react";
 import "./AboutPage.css";
-import logo from '../../assets/logo.png'
+
+import Tiffany from '../../assets/Tiffany.png'
 
 const AboutPage = () => {
   return (
     <section className="about-page">
       <div className="about-container">
         <div className="about-image">
-          <img src={logo} alt="Tiffany" />
+          <img src={Tiffany} alt="Tiffany" />
         </div>
         <div className="about-content">
           <h1>About Tiffany</h1>
