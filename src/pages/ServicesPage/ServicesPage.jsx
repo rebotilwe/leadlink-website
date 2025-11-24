@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./ServicesPage.css";
 
 const services = [
@@ -17,6 +18,7 @@ const services = [
 ];
 
 const ServicesPage = () => {
+   const navigate = useNavigate();
   return (
     <section className="services-page">
       <div className="services-header">
@@ -36,7 +38,9 @@ const ServicesPage = () => {
       </div>
 
       <div className="cta-container">
-        <button className="cta-button">Get Verified Leads</button>
+        <button className="cta-button" onClick={() => navigate("/contact")}>
+          Get Verified Leads
+        </button>
       </div>
     </section>
   );
