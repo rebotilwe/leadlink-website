@@ -1,0 +1,91 @@
+/* ServicesPage.css */
+
+.services-page {
+  background-color: #f9f9f9; /* light background to match AboutPage */
+  padding: 60px 20px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+.services-header h1 {
+  font-size: 2.2rem;
+  color: #2f855a; /* LeadLink Africa green */
+  margin-bottom: 15px;
+}
+
+.services-header p {
+  font-size: 1rem;
+  color: #4a4a4a;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  line-height: 1.6;
+}
+
+.services-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.service-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h2 {
+  font-size: 1.2rem;
+  color: #2f855a;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  color: #4a4a4a;
+  line-height: 1.5;
+}
+
+/* CTA Button */
+.cta-container {
+  text-align: center;
+}
+
+.cta-button {
+  background-color: #2f855a;
+  color: #fff;
+  font-size: 1rem;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #276b49; /* darker green on hover */
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .services-list {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .service-card {
+    width: 90%;
+  }
+}

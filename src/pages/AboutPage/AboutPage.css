@@ -1,0 +1,56 @@
+/* AboutPage.css */
+
+.about-page {
+  background-color: #f9f9f9; /* light background for contrast */
+  padding: 60px 20px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap; /* responsive for smaller screens */
+}
+
+.about-image img {
+  width: 250px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+  max-width: 600px;
+}
+
+.about-content h1 {
+  font-size: 2rem;
+  color: #2f855a; /* a green shade matching LeadLink theme */
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #4a4a4a; /* dark grey for readability */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .about-content h1 {
+    font-size: 1.8rem;
+  }
+}
