@@ -1,14 +1,15 @@
 .footer {
   background: #1f3b4d;
   color: #ffffff;
-  padding: 35px 10% 15px; /* Reduced height */
+  padding: 35px 10% 20px;
   margin-top: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .footer-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 25px; /* Reduced spacing */
+  gap: 25px;
 }
 
 .footer-column h3,
@@ -16,6 +17,13 @@
   color: #c89b3c;
   margin-bottom: 8px;
   font-size: 1.1rem;
+}
+
+.footer-tagline {
+  font-size: 0.95rem;
+  color: #ffffff;
+  opacity: 0.85;
+  margin-bottom: 10px;
 }
 
 .footer-column p {
@@ -31,7 +39,7 @@
 }
 
 .footer-column ul li {
-  margin-bottom: 6px; /* Reduced space */
+  margin-bottom: 6px;
   cursor: pointer;
   transition: color 0.3s ease;
 }

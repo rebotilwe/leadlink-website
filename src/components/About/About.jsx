@@ -12,6 +12,7 @@ const About = () => {
 
         <div className="about-content">
           <h2>About LeadLink Africa</h2>
+          <h3 className="tagline">Empowering Business Through Connection</h3>
           <p>
             LeadLink Africa is a lead generation and consulting company
             connecting businesses with verified, high-quality leads across

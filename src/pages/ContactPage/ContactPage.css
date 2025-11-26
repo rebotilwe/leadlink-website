@@ -67,6 +67,18 @@
   outline: none;
 }
 
+/* Status message styling */
+.form-status {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  color: #1abc9c;
+}
+
+.form-status:contains("❌") {
+  color: #e74c3c;
+}
+
 /* Contact info styles */
 .contact-info {
   flex: 1 1 300px;
@@ -83,4 +95,12 @@
 .contact-info p {
   font-size: 1rem;
   margin-bottom: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }

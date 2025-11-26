@@ -139,4 +139,11 @@
     align-items: center;
   }
 }
+.about-visual .tagline {
+  font-size: 1.1rem;
+  font-weight: 400;
+  opacity: 0.85;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
 

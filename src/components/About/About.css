@@ -56,3 +56,11 @@
     margin: 0.5rem auto 0;
   }
 }
+.about-content .tagline {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #1f8f4a; /* Matches brand green */
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+}
+

@@ -8,6 +8,7 @@ const Footer = () => {
 
         <div className="footer-column">
           <h3>LeadLink Africa</h3>
+          <p className="footer-tagline">Empowering Business Through Connection</p>
           <p>
             We connect businesses with verified, high-quality leads that drive
             growth, improve conversion rates, and strengthen client acquisition strategies.

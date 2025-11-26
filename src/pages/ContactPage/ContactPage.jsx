@@ -48,13 +48,13 @@ const ContactPage = () => {
 
   return (
     <section className="contact-page">
-      <h2>Contact Tiffany</h2>
+      <h2>Contact Our Lead Specialist</h2>
       <div className="contact-container">
         <form onSubmit={handleSubmit} className="contact-form">
           <input
             type="text"
             name="name"
-            placeholder="Your Name"
+            placeholder="Your Full Name"
             value={formData.name}
             onChange={handleChange}
             required
@@ -63,7 +63,7 @@ const ContactPage = () => {
           <input
             type="text"
             name="company"
-            placeholder="Company"
+            placeholder="Your Company / Organization"
             value={formData.company}
             onChange={handleChange}
           />
@@ -71,7 +71,7 @@ const ContactPage = () => {
           <input
             type="email"
             name="email"
-            placeholder="Email"
+            placeholder="Work Email Address"
             value={formData.email}
             onChange={handleChange}
             required
@@ -80,14 +80,14 @@ const ContactPage = () => {
           <input
             type="tel"
             name="phone"
-            placeholder="Phone"
+            placeholder="Phone Number (Optional)"
             value={formData.phone}
             onChange={handleChange}
           />
 
           <textarea
             name="message"
-            placeholder="Message"
+            placeholder="Tell our Lead Specialist about your lead requirements..."
             value={formData.message}
             onChange={handleChange}
             required
@@ -99,7 +99,7 @@ const ContactPage = () => {
         </form>
 
         <div className="contact-info">
-          <img src={logo} alt="Tiffany" />
+          <img src={logo} alt="LeadLink Africa Logo" />
           <p><strong>Phone:</strong> 067 080 5734</p>
           <p><strong>Email:</strong> leadlinkafrica@mail.com</p>
           <p>

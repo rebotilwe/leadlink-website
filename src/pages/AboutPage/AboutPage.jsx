@@ -7,26 +7,28 @@ const AboutPage = () => {
     <section className="about-page">
       <div className="about-container modern-layout">
         
-        {/* Left Visual Brand Block */}
-        <div className="about-visual">
-          <h2>LeadLink Africa</h2>
-          <p>Your trusted partner in verified business leads</p>
+     {/* Left Visual Brand Block */}
+<div className="about-visual">
+  <h2>LeadLink Africa</h2>
+  <h3 className="tagline">Empowering Business Through Connection</h3>
+  <p>Your trusted partner in verified business leads</p>
 
-          <div className="about-features">
-            <div className="feature-box">
-              <FaCheckCircle />
-              <span>Verified Data</span>
-            </div>
-            <div className="feature-box">
-              <FaUserShield />
-              <span>POPIA Compliant</span>
-            </div>
-            <div className="feature-box">
-              <FaChartLine />
-              <span>High Conversion</span>
-            </div>
-          </div>
-        </div>
+  <div className="about-features">
+    <div className="feature-box">
+      <FaCheckCircle />
+      <span>Verified Data</span>
+    </div>
+    <div className="feature-box">
+      <FaUserShield />
+      <span>POPIA Compliant</span>
+    </div>
+    <div className="feature-box">
+      <FaChartLine />
+      <span>High Conversion</span>
+    </div>
+  </div>
+</div>
+
 
         {/* Content Section */}
         <div className="about-content">
