@@ -15,9 +15,11 @@
 
 /* Logo */
 .logo-img {
-  height: 80px;
+  height: 90px;
   width: auto;
+  filter: contrast(1.2) saturate(1.1);
 }
+
 
 /* Navigation Links */
 .nav-links {
