@@ -27,7 +27,7 @@ const Footer = () => {
 
         <div className="footer-column">
           <h4>Contact Info</h4>
-          <p>Email: leadlinkafrica@mail.com</p>
+          <p>Email: Leadlinkafrica@gmail.com</p>
           <p>Phone: 067 080 5734</p>
           <p>South Africa</p>
         </div>

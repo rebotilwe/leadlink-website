@@ -101,7 +101,7 @@ const ContactPage = () => {
         <div className="contact-info">
           <img src={logo} alt="LeadLink Africa Logo" />
           <p><strong>Phone:</strong> 067 080 5734</p>
-          <p><strong>Email:</strong> leadlinkafrica@mail.com</p>
+          <p><strong>Email:</strong> Leadlinkafrica@gmail.com</p>
           <p>
             LeadLink Africa provides verified leads to help your business grow efficiently.
           </p>
